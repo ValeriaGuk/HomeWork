@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+}
+
+.header {
+    border: 1px solid black;
+    background-color: pink;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.white {
+    background-color: white;
+    width: 85%;
+    height: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.black {
+    background-color: black;
+    width: 85%;
+    height: 50%;
+}
+
+.menu {
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.red {
+    background-color: red;
+}
+.orange {
+    background-color: orange;
+}
+.aqua {
+    background-color: aqua;
+}
+.yellow {
+    background-color: yellow;
+}
+
+.content {
+    border: 1px solid black;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.left-block {
+    background-color: green;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.container-a {
+    height: 80%;
+    width: 70%;
+    background-color: red;
+
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas: 
+    "left left"
+    "a-left b-left";
+}
+
+.left {
+    background-color: orange;
+    grid-area: left;
+}
+.a-left {
+    background-color: pink;
+    grid-area: a-left;
+}
+.b-left {
+    background-color: yellow;
+    grid-area: b-left;
+}
+
+.centr-block {
+    background-color:aqua;
+    display: grid;
+    align-items: end;
+}
+.container-b {
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.b-center {
+    background-color: red;
+}
+
+.a-center {
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
+}
+.A-c {
+    background-color: orange;
+    height: 80%;
+}
+.B-c {
+    background-color: red;
+    height: 40%;
+}
+
+
+.c-center {
+    background-color: orange;
+}
+
+.right-block {
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.a-right {
+    background-color: aqua;
+    height: 40%;
+    align-self: end;
+}
+.b-right {
+    background-color: yellow;
+    height: 60%;
+    align-self: end;
+    margin-bottom: 20%;
+}
+.c-right {
+    background-color: orange;
+    height: 60%;
+    align-self: center;
+}
+
+.container-c {
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+.black-l {
+    background-color: black;
+    height: 40px;
+    width: 100px;
+    justify-self: end;
+    margin-top: 30%;
+}
+.black-r {
+    background-color: black;
+    height: 40px;
+    width: 100px;
+    margin-top: 40%;
+}
