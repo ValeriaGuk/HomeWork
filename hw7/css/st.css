@@ -1,0 +1,202 @@
+/* шапка */
+.pink {
+    border: 1px solid black;
+    background-color: pink;
+    width: 100%;
+    height: 300px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.white {
+    background-color: white;
+    width: 80%;
+    height: 200px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.black {
+    background-color: black;
+    width: 80%;
+    height: 100px;
+}
+/* *** */
+
+/* меню */
+
+.menu {
+    border: 1px solid black;
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.red {
+    background-color: red;
+    width: 50%;
+    height: 300px;
+}
+
+.orange {
+    background-color: orange;
+    width: 50%;
+    height: 300px;
+}
+
+.aqua {
+    background-color: aqua;
+    width: 50%;
+    height: 300px;
+}
+
+.yellow {
+    background-color: yellow;
+    width: 50%;
+    height: 300px;
+}
+/* *** */
+
+/* footer */
+
+.footer {
+    border: 1px solid black;
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+/* левая часть */
+
+.left-block {
+    background-color: green;
+    width: 50%;
+    
+    display: flex;
+    justify-content: space-around;
+    }
+
+.left {
+    background-color: orange;
+    height: 500px;
+    width: 400px;
+    align-self: flex-end;
+
+    display: flex;
+}
+
+.a-left {
+    background-color: pink;
+    width: 50%;
+    height: 400px;
+    align-self: flex-end;
+}
+
+.b-left {
+    background-color: yellow;
+    width: 50%;
+    height: 400px;
+    align-self: flex-end;
+}
+
+/* центральная часть */
+
+.center-block {
+    background-color: aqua;
+    width: 50%;
+
+    display: flex;
+}
+
+.red-c {
+    background-color: red;
+    height: 500px;
+    width: 50%;
+    align-self: flex-end;
+}
+
+.a-center {
+    background-color: yellow;
+    height: 500px;
+    width: 50%;
+    align-self: flex-end;
+
+    display: flex;
+}
+
+.A-c {
+    background-color: orange;
+    height: 400px;
+    width: 50%;
+    align-self: flex-end;
+}
+
+.B-c {
+    background-color: red;
+    height: 200px;
+    width: 50%;
+    align-self: flex-end;
+}
+
+.orange-c {
+    background-color: orange;
+    height: 500px;
+    width: 50%;
+    align-self: flex-end;
+}
+
+/* правая часть */
+
+.right-block {
+    background-color: blue;
+    width: 50%;
+    display: flex;
+}
+
+.aqua-r {
+    background-color: aqua;
+    width: 50%;
+    height: 200px;
+    align-self: flex-end;
+}
+
+.yellow-r {
+    background-color: yellow;
+    width: 50%;
+    height: 300px;
+    margin-bottom: 50px;
+    align-self: flex-end;
+}
+
+.orange-r {
+    background-color: orange;
+    width: 50%;
+    height: 300px;
+    align-self: center;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.text-one {
+    background-color: black;
+    color: white;
+    width: 60%;
+    height: 30px;
+    align-self: flex-end;
+    margin-bottom: 60px;
+}
+
+.text-two {
+    background-color: black;
+    color: white;
+    width: 60%;
+    height: 30px;
+    align-self: flex-start;
+    margin-top: 60px;
+}
