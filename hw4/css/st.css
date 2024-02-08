@@ -1,0 +1,61 @@
+/* 1 */
+table, th, td {
+	border: 1px solid white;
+	border-collapse: separate;
+	margin: auto;
+}
+/* 2 */
+th{
+	background-color: #4682B4;
+}
+td {
+	background-color: #E0FFFF;
+} 
+h1,h3 {
+	text-align: center;
+	background-color: azure;
+}
+table {
+	width: 70%;
+	border-collapse: collapse;
+}
+/* 3 */
+a:hover{
+	background-color: yellow;
+}
+
+/* 4 */
+#table3 {
+    text-align: left;
+}
+/* 5 */
+body .a{
+	background-color: aliceblue;
+}
+/* 6 */
+p[class]{
+	font-size: 20px;
+}
+/* 7 */
+p[class="b"]{
+	font-size: 30px;
+}
+/* 8 */
+div + span{
+	background-color: violet;
+}
+/* 9 */
+.c>div{
+	background-color: red;
+}
+/* 10 */
+div~span{
+	color: blue
+}
+h3{
+	margin: 10px 200px 10px 200px;
+}
+h4 {
+	margin: 100px 200px;
+	background-color: aliceblue;
+}
