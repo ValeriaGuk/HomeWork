@@ -1,0 +1,111 @@
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+.menu {
+    background-color: #008080;
+    width: 100px;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1500px;
+    z-index: 10;
+}
+.border {
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+h3 {
+    margin-top: -40px;
+    position: absolute;
+}
+a {
+    margin-right: 50px;
+}
+.visible {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow: visible;
+}
+.hidden {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.scroll {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+.auto {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow: auto;
+}
+.visible {
+    float: left;
+    margin: 100px 25px;
+}
+.hidden {
+    float: left;
+    margin: 100px 25px;
+}
+.scroll {
+    float: left;
+    margin: 100px 25px;
+}
+.auto {
+    float: left;
+    margin: 100px 25px;
+    font-size: 20px;
+}
+.a {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    margin: 20px 50px;
+    display: none;
+}
+.b {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    margin: 20px 50px;
+    visibility: hidden;
+}
+.c {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    margin: 20px 50px;
+    visibility: collapse;
+}
+.d {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    margin: 20px 50px;
+    opacity: 0.2;
+}
+.float {
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 50px;
+}
