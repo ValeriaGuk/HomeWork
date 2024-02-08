@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-size: 18px;
+}
+header{
+    width: 100%;
+    background-color: #D9C24E;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 20px 50px;
+}
+
+li > div {
+    display: none;
+    background-color: black;
+    width: 40px;
+    height: 3px;
+    margin: 20px;
+}
+
+.burger-menu li {
+    list-style-type: none;
+}
+nav {
+    width: 100%;
+    background-color: #736253;
+    margin: 90px 0;
+}
+.menu-two li {
+    display: inline-block;
+    margin: 20px 50px;
+}
+
+img {
+    width: 500px;
+    float: right;
+    margin: 0 150px;
+}
+
+p {
+    width: 500px;
+    margin: 100px 150px;
+}
+
+footer > div {
+    margin: 100px 50px;
+    display: inline-flex;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .menu li {
+        display: none;
+    }
+        .menu-two li {
+            margin-top: 20px;
+        }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    li > div {
+        display: block;
+    }
+    .menu li {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    li > div {
+        display: block;
+    }
+    .menu li {
+        display: none;
+    }
+    img {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 510px) and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    li > div {
+        display: block;
+    }
+    .menu li {
+        display: none;
+    }
+    img {
+        width: 300px;
+    }   
+    p {
+        margin: 300px 10px;
+    }
+    footer > div {
+        margin: 50px 10px;
+    }
+}
+
+@media screen and (min-width: 410px) and (max-width: 510px) {
+    body {
+        font-size: 16px;
+    }
+    li > div {
+        display: block;
+    }
+    .menu li {
+        display: none;
+    }
+    p {
+        width: 200px;
+        margin: 200px 10px;
+    }
+}
+
+@media screen and (min-width: 270px) and (max-width: 510px) {
+    body {
+        font-size: 14px;
+    }
+    li > div {
+        display: block;
+    }
+    .menu li {
+        display: none;
+    }
+    img {
+        width: 200px;
+    }
+    p {
+        width: 200px;
+        margin: 200px 10px;
+    }
+}
