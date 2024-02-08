@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/st2.css">
+</head>
+<body>
+    <nav>
+        <a href="./формы.html">Формы</a>
+    </nav>
+    <form action="" id="second-form">
+        <div>
+            <label for="product">Тип продукта</label>
+            <br>
+            <select name="product" id="product">
+                <option selected value="none"></option>
+                <option value="telephone">Телефон</option>
+                <option value="laptop">Ноутбук</option>
+                <option value="vacuum-cleaner">Пылисос</option>
+                <option value="charger">Зарядка</option>
+            </select>
+        </div>
+        <div>
+            <label for="power">Мощность:</label>
+            <br>
+            <input type="checkbox" id="15w" name="power">
+            <label for="15w">15w</label>
+            <br>
+            <input type="checkbox" id="25w" name="power">
+            <label for="25w">25w</label>
+            <br>
+            <input type="checkbox" id="65w" name="power">
+            <label for="65w">65w</label>
+            <br>
+            <input type="checkbox" id="100w" name="power">
+            <label for="100w">100w</label>
+            <br>
+            <input type="checkbox" id="200w" name="power">
+            <label for="200w">200w</label>
+        </div>
+        <div>
+            <label for="sorting">Сортировка</label>
+            <br>
+            <select name="sorting" id="sorting">
+                <option selected value="rating">По рейтингу</option>
+                <option value="cheap">От дешевых</option>
+                <option value="еxpensive">От дорогих</option>
+            </select>
+        </div>
+        <div>
+            <input type="text" name="tex" id="text" placeholder="Название модели">
+        </div>
+        <div>
+            <input type="submit" value="Поиск">
+        </div>
+    </form>
+    <hr>
+    <div>
+        <iframe src="./произвольные.html" width="100%" height="400px" frameborder="0"></iframe>
+    </div>
+    <hr>
+</body>
+</html>

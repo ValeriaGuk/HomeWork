@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/st2.css">
+</head>
+<body>
+    <form action="" id="third-form">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" required placeholder="Enter name" name="name" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" required placeholder="Enter password"  name="password" id="password">
+        </div>
+        <br>
+        <div>
+            <label for="re-password">Password</label>
+            <input type="password" required placeholder="Enter password again"  name="re-password" id="re-password">
+        </div>
+        <br>
+        <div>
+            <label for="date"> Date of birth</label>
+            <input type="date" required name="date" id="date">
+        </div>
+        <br>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" placeholder="Enter your age" name="age" id="age">
+        </div>
+        <br>
+        <div>
+            <label for="gender">Пол</label>
+            <br>
+            <input type="radio" id="f" name="ask"> <label for="f">Женищина</label>
+            <br>
+            <input type="radio" id="m" name="ask"> <label for="m">Мужчина</label>
+        </div>
+        <br>
+        <div>
+            <label for="about-yourself">Немного про себя</label>
+            <br>
+            <textarea name="about-yourself" id="text" cols="30" rows="5" placeholder="Enter text"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="range">
+        </div>
+        <div>
+            <input type="color">
+        </div>
+        <div>
+            <label for="product">Тип продукта</label>
+            <br>
+            <select name="product" id="product">
+                <option selected value="none"></option>
+                <option value="telephone">Телефон</option>
+                <option value="laptop">Ноутбук</option>
+                <option value="vacuum-cleaner">Пылисос</option>
+                <option value="charger">Зарядка</option>
+            </select>
+        </div>
+        <div>
+            <label for="power">Мощность:</label>
+            <br>
+            <input type="checkbox" id="15w" name="power">
+            <label for="15w">15w</label>
+            <br>
+            <input type="checkbox" id="25w" name="power">
+            <label for="25w">25w</label>
+            <br>
+            <input type="checkbox" id="65w" name="power">
+            <label for="65w">65w</label>
+            <br>
+            <input type="checkbox" id="100w" name="power">
+            <label for="100w">100w</label>
+            <br>
+            <input type="checkbox" id="200w" name="power">
+            <label for="200w">200w</label>
+        </div>
+        <div>
+            <label for="sorting">Сортировка</label>
+            <br>
+            <select name="sorting" id="sorting">
+                <option selected value="rating">По рейтингу</option>
+                <option value="cheap">От дешевых</option>
+                <option value="еxpensive">От дорогих</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>
