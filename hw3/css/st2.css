@@ -1,0 +1,11 @@
+body {
+    background-color:#A4887B;
+    color: #2E3047;
+}
+div {
+    background-color:#ffeddf;
+    margin-block-start: 100px;
+    border-style: groove;
+    display: block;
+    border: 1px solid #556877;
+}
